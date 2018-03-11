@@ -6,9 +6,9 @@ import Tabs, { Tab } from './Tabs'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Tabs>
-          <Tab name="1">
+      <div className="App container">
+        <Tabs className="">
+          <Tab name="1" >
             <div>内容一</div>
           </Tab>
           <Tab name="2">
